@@ -1,0 +1,31 @@
+.bgimage{
+    background-image: url(Images/bg.jpg);
+    box-shadow: inset 0 0 0 1444px rgba(59, 59, 59, 0.4);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 850px;
+}
+.imagetext{
+    margin-top: 160px;
+}
+.aboutimage{
+    background-image: url(Images/bg-image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: inset 0 0 0 1444px rgba(59, 59, 59, 0.4);
+    height: 370px;
+    width: 100%;
+}
+.map{
+    width: 600px;
+    height: 450px;
+}
+
+@media only screen and (max-width: 767px){
+    .map{
+        width: 380px;
+        height: 300px;
+    }  
+}

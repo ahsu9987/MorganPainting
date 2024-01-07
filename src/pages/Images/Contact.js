@@ -3,7 +3,6 @@ import { Button,Col, Container, Image, Row ,Form} from "react-bootstrap";
 import Office from './office.png'
 import Telephone from './telephone-symbol-button.png'
 import email from './email.png'
-import iframe from 'react-bootstrap'
 
 
 function Conatct (){
@@ -56,7 +55,7 @@ function Conatct (){
                             <Image src={email} className="img-fluid" alt="email image" />&nbsp;&nbsp; ahsanansari75862@gmail.com
                         </div>
                     </div>
-            <iframe className={{iframe}} src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15091.983970784415!2d72.81609734629478!3d18.97578438065905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7cf670b66c373%3A0xf1def54bb6d8947e!2sWarsi%20Telecom!5e0!3m2!1sen!2sin!4v1704353317253!5m2!1sen!2sin" title="map"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15091.983970784415!2d72.81609734629478!3d18.97578438065905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7cf670b66c373%3A0xf1def54bb6d8947e!2sWarsi%20Telecom!5e0!3m2!1sen!2sin!4v1704353317253!5m2!1sen!2sin" title="map"></iframe>
                     </Col>
                 </Row>
             </Container>

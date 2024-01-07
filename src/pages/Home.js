@@ -1,5 +1,6 @@
 import React from "react";
 import { Button, Card, Col, Container, Image, Row } from "react-bootstrap";
+import { Link } from "react-router-dom/cjs/react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './page.css';
 import MorganImage from './Images/brand-inverse.png'
@@ -31,8 +32,9 @@ function Home (){
                     <Col lg={6} className=" ps-lg-5">
                     <h1 className="ps-lg-2" style={{fontSize:'50px'}}>A Few Words About Me</h1>
                     <p className="mt-5 text-secondary" style={{fontSize:'20px', lineHeight:'30px'}}>My name is Ahsan, and I have been a fine artist since my youth. I find inspiration from the innovative styles of contemporary and urban art, such as graphic and graffiti illustrations. I strongly believe that art is a global form of communication. It educates visually by either moving you, pleasing you, or even inspiring you</p>
+                    <Link to="/About"> 
                     <Button href="/About" className=" mt-2 fs-5 ps-lg-5 pe-lg-5 pt-lg-3 pb-lg-3 mb-3 rounded-pill text-warning" variant="outline-dark" style={{border:'3px solid #daa520 '}}>Learn More</Button>
-
+                    </Link>
                     </Col>
                     <Col lg={{span:4, offset: 1}}>
                     <Image src={Afewimage} className="img-fluid mt-lg-3"  alt="Words-About-img"/>

@@ -18,14 +18,13 @@
     height: 370px;
     width: 100%;
 }
-.map{
-    width: 600px;
+.MAP{
+    width: 700px;
     height: 450px;
 }
 
 @media only screen and (max-width: 767px){
-    .map{
-        width: 380px;
-        height: 300px;
-    }  
+    .MAP{
+        width: 350px;
+    }
 }

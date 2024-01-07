@@ -150,7 +150,9 @@ function Home (){
                     </Col>
             </Row>
             <div className="text-center">
+            <Link to="/Contact"> 
             <Button href="/Contact" className="text-center mt-2 fs-5 ps-lg-5 pe-lg-5 pt-lg-3 pb-lg-3 mb-5 rounded-pill text-warning" variant="outline-dark" style={{border:'3px solid #daa520 '}}>Veiw All Services</Button>
+            </Link>
             </div>
 
             </Container>

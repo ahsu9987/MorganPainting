@@ -1,7 +1,7 @@
 import React from "react";
 import { Button, Card, Col, Container, Image, Row } from "react-bootstrap";
-import { Link } from "react-router-dom/cjs/react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Link } from "react-router-dom/cjs/react-router-dom.min";
 import './page.css';
 import MorganImage from './Images/brand-inverse.png'
 import Afewimage from './Images/home.jpg'
@@ -15,6 +15,7 @@ import person from './Images/Portrait-img.png'
 import landscape from './Images/Landscape-img.png'
 import stilllife from './Images/StillLife-img.png'
 import urban from './Images/urban-img.png'
+
 
 function Home (){
     return (
@@ -154,7 +155,6 @@ function Home (){
             <Button href="/Contact" className="text-center mt-2 fs-5 ps-lg-5 pe-lg-5 pt-lg-3 pb-lg-3 mb-5 rounded-pill text-warning" variant="outline-dark" style={{border:'3px solid #daa520 '}}>Veiw All Services</Button>
             </Link>
             </div>
-
             </Container>
         </section>
     </>

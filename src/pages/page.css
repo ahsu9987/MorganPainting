@@ -24,6 +24,12 @@
 }
 
 @media only screen and (max-width: 767px){
+    .bgimage{
+        height: 600px;
+    }
+    .imagetext{
+        padding: 30px;
+    }
     .MAP{
         width: 350px;
     }

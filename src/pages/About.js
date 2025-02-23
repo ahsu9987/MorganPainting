@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Col, Container, Image, Row } from "react-bootstrap";
+import { Button, Col, Container, Image  , Row } from "react-bootstrap";
 import fewimg from './Images/still-life-1.jpg'
 
 
